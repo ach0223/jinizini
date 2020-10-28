@@ -1,0 +1,319 @@
+.blur{
+	animation-name: blur;
+	animation-duration:10s;
+	animation-fill-mode: forwards;
+
+}
+
+.blur1{
+	animation-name: blurr;
+
+	animation-duration:10s;
+	animation-fill-mode: forwards;
+
+}
+
+.blur2{
+	animation-name: blur;
+	animation-duration:10s;
+	animation-fill-mode: forwards;
+
+}
+
+.blur3{
+	animation-name: wow;
+	animation-delay: 2s;
+	animation-duration:8s;
+	animation-fill-mode: forwards;
+
+}
+
+
+
+.blur-container{position: absolute;
+	top:10%;
+	left:calc(50% - 271.77px / 2)}
+
+@keyframes blur{
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+
+.blur-container2{position: absolute;
+	bottom:10%;
+	left:calc(50% - 234.71px / 2)}
+
+@keyframes blurr{
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+.blur-container3{position: absolute;
+	top:13%;
+	left:3%;z-index: 30}
+
+@keyframes blur2{
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+.blur-container4{position: absolute;
+	top:13%;
+	right: 3%;z-index: 30}
+
+@keyframes blur2{
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+
+.blur-container5{position: absolute;
+	bottom:calc(50% - 55.3px / 2);
+	left:calc(50% - 298.89px / 2);z-index: 20}
+
+@keyframes wow{
+	0%{
+		filter: blur(0px)
+
+	}
+
+	45%{
+		filter: blur(0px);
+	}	
+
+	100%{
+		filter: blur(100px);	
+
+	}
+
+}
+
+
+.blur4{position:absolute;width: 50%;height: 100%; 
+	
+	animation-name: fadein;animation-duration: 5s;
+	z-index: 2}
+
+@keyframes fadein {
+        from {
+            opacity: 0;
+        }
+ 
+        to {
+            opacity: 1;
+        }
+    }
+
+
+.blur5{position: absolute;width: 30%;height: 55%;
+	bottom: 0%;
+	animation-name: fadeinmove;animation-duration: 5s;}
+
+@keyframes fadeinmove {
+        from {left: 20%;
+            opacity: 0;
+        }
+ 
+        to {left: 10%;
+            opacity: 1;
+        }
+    }
+
+
+
+.bird{position: absolute;width: 10%;height:15%;
+	top:5%;left: 15%; 
+	
+	animation: mymove 1.5s infinite alternate;z-index: -1}
+
+@keyframes mymove {
+		from{top:5%;left: 15%;transform: rotate(0deg);}
+		to{top: 10%;left: 13%;transform: rotate(-10deg);}
+
+	}
+
+.branch2{position: absolute;width: 20%;height:10%;
+	top:50%;left: 0%; 
+	
+	animation: branchmove 1.5s infinite alternate;z-index:-1;}
+
+@keyframes branchmove {
+		from{top:8%;transform: rotate(0deg);}
+		to{top: 11%;transform: rotate(10deg);}
+
+	}
+
+.blur7{position:absolute;width: 30%;height: 100%; 
+	right: 0%;z-index: 2;
+
+	animation-name: fadein;animation-duration: 5s;}
+
+@keyframes fadein {
+        from {
+            opacity: 0;
+        }
+ 
+        to {
+            opacity: 1;
+        }
+    }
+
+
+.jini2{position: absolute;width: 15%;height:40%;
+	bottom:0%;left: 0%; z-index: 1;
+	
+	animation: jinimove 5s infinite alternate; }
+
+@keyframes jinimove {
+		from{left:0%;opacity: 0}
+		to{left: 15%;opacity: 1}
+
+	}
+
+
+.zini3{position: absolute;width: 15%;height:25%;
+	bottom:0%;right: 0%; z-index: 1;
+	opacity: 0;
+	animation: zinimove 5s infinite alternate 
+	;animation-delay:5s;}
+
+@keyframes zinimove {
+		from{right:0%;opacity: 0}
+		to{right: 15%;opacity: 1}
+
+	}
+
+
+.birdb2{position: absolute;width: 10%;height:15%;
+	bottom: 25%;right: 25%; 
+	
+	animation: bmove 2s infinite alternate;
+	
+	;z-index: 1}
+
+@keyframes bmove {
+		from{bottom: 27%;transform: rotate(0deg);}
+		to{bottom: 32%;transform: rotate(20deg)}
+
+	}
+
+.birdb3{position: absolute;width: 10%;height:15%;
+	top:10%;right: 10%; 
+	
+	animation: bmovee 2.5s infinite alternate;
+	
+	;z-index: -1}
+
+@keyframes bmovee {
+		from{top:3%;}
+		to{top: 4%;}
+
+	}
+
+
+.tree{position: absolute;width: 30%;height: 40%;
+	bottom: 0%; right: 15%;
+	animation-name: fadeinmove;animation-duration: 5s;
+	z-index: -1;}
+
+@keyframes fadeinmove {
+        from {opacity: 0;
+        }
+ 
+        to {opacity: 1;
+        }
+    }
+
+
+.tree2{position: absolute;width: 50%;height: 60%;
+	bottom: 0%; left: 5%;
+	animation-name: fadeintree;animation-duration: 5s;
+	z-index: -1;}
+
+@keyframes fadeintree {
+        from {opacity: 0;
+        }
+ 
+        to {opacity: 1;
+        }
+    }
+
+
+.leaf{position: absolute;width: 30%;height:20%;
+	top:50%;left: 0%; 
+	
+	animation: leafmove 2s infinite alternate;z-index: 5;}
+
+@keyframes leafmove {
+		from{top:51%;transform: rotate(0deg);}
+		to{top: 47%;transform: rotate(-5deg);}
+
+	}
+
+.ape{position: absolute;width: 10%;height:15%;
+	top:30%;left: 5%; 
+	
+	animation: apemove 2s infinite alternate;z-index: 4;}
+
+@keyframes apemove {
+		from{top:48%;transform: rotate(0deg);}
+		to{top: 43%;transform: rotate(-5deg);}
+
+	}
+
+.ape2{position: absolute;width: 8%;height:18%;
+	top: 23%;right: 15%; 
+	
+	animation: apemovee 2s infinite alternate;z-index: -1;}
+
+@keyframes apemovee {
+		from{right:14%;}
+		to{right:16%;}
+
+	}
+
+.branch3{position: absolute;width: 25%;height:15%;
+	top:30%;right: 5%; 
+	
+	animation: branchmovee 2s infinite alternate;z-index:-1;}
+
+@keyframes branchmovee {
+		from{top:10%;transform: rotate(0deg);}
+		to{top: 13%;transform: rotate(-10deg);}
+
+	}
+
+

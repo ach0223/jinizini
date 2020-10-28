@@ -165,16 +165,16 @@
 
 	}
 
-.branch2{position: absolute;width: 20%;height:10%;
-	top:50%;left: 0%; 
+.leaf5{position: absolute;width: 11%;height:12%;
+	top:11%;left: 0%; 
 	
-	animation: branchmove 1.5s infinite alternate;z-index:-1;}
+	animation: branchmove 5s ;z-index:5;}
 
 @keyframes branchmove {
-		from{top:8%;transform: rotate(0deg);}
-		to{top: 11%;transform: rotate(10deg);}
-
+		from{opacity: 0}
+		to{opacity: 1}
 	}
+
 
 .blur7{position:absolute;width: 30%;height: 100%; 
 	right: 0%;z-index: 2;
